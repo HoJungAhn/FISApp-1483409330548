@@ -22,7 +22,7 @@ public class SimpleServlet extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         response.setContentType("text/html");
         response.getWriter().print("Hello Wooga World!<br>");
-        response.getWriter().print("Deploy by toolchain..!!");
+        response.getWriter().print("Deploy by toolchain..!!<br>");
         response.getWriter().print("Deploy by toolchain..!!");
     }
 
