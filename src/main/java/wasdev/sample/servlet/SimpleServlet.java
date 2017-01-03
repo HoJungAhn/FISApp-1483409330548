@@ -23,6 +23,7 @@ public class SimpleServlet extends HttpServlet {
         response.setContentType("text/html");
         response.getWriter().print("Hello Wooga World!<br>");
         response.getWriter().print("Deploy by toolchain..!!");
+        response.getWriter().print("Deploy by toolchain..!!");
     }
 
 }
